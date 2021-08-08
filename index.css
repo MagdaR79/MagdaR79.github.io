@@ -1,9 +1,12 @@
 h1 { 
-    
-    color: blue;
+    font-size: small;
+    color:rgb(64, 70, 87);
+}
+a{
+    font-size:x-small;
+    color: darkslategray;
 }
 body {
-    background: rgb(139, 160, 218);
-    background: linear-gradient(to right, rgb(139, 160, 218), rgb(48, 100, 241));
-    background: -webkit-linear-gradient(to right, rgb(139, 160, 218), rgb(48, 100, 241));
+    background:img src="./images/tlo.png";
+    
 }
