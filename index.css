@@ -1,14 +1,47 @@
 h1 { 
-    font-size:large;
+    font-size:medium;
     color:rgb(232, 234, 240);
+    margin-bottom: 20px;
 }
 h2 { 
-    font-size:medium;
+    font-size:small;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color:rgb(232, 234, 240);
+    margin-left: 50px;
+    margin-bottom: 100px;
 }
 a{
     font-size:x-small;
     color: darkslategray;
 }
+article {
+    font: 1em sans-serif;
+    line-height: 150%;
+margin-left: 50px;
+margin-bottom: 100px;
+}
+.vertical-menu {
+    width: 50px; 
+  }
+  
+  .vertical-menu a {
+    background-color: rgb(15, 15, 15); 
+    color: rgb(26, 124, 51); 
+    display: block; /* Make the links appear below each other */
+    padding: 12px; 
+    text-decoration: none; /* Remove underline from links */
+  }
+  
+  .vertical-menu a:hover {
+    background-color: #ccc; /* Dark grey background on mouse-over */
+  }
+  
+  .vertical-menu a.active {
+    background-color: #04AA6D; /* Add a green color to the "active/current" link */
+    color: white; }
 
+    .vertical-menu {
+        width: 200px;
+        height: 70px;
+        overflow-y: auto;
+      }  
