@@ -16,9 +16,10 @@ a{
 }
 article {
     font: 1em sans-serif;
+    color: rgb(232, 234, 240);
     line-height: 150%;
 margin-left: 50px;
-margin-bottom: 100px;
+margin-bottom: 100px;s
 }
 .vertical-menu {
     width: 50px; 
