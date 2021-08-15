@@ -1,25 +1,36 @@
 h1 { 
     font-size:medium;
     color:rgb(232, 234, 240);
-    margin-bottom: 20px; 
-     margin-up: 30px; }
+    margin-bottom: 20px;
+}
 h2 { 
     font-size:small;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color:rgb(232, 234, 240);
     margin-left: 50px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 a{
     font-size:x-small;
     color: darkslategray;
 }
+p{
+  color: gray; 
+  text-align: left; 
+  margin-left: 20px;
+}
 article {
+    width: 800px;
     font: 1em sans-serif;
     color: rgb(232, 234, 240);
     line-height: 150%;
-margin-left: 50px;
-margin-bottom: 100px;s
+    margin-left: 50px;
+    margin-bottom: 50px;
+  
+}
+aside {
+   width: 40px;
+   height: 100px;
 }
 .vertical-menu {
     width: 50px; 
