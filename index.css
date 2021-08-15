@@ -17,7 +17,7 @@ a{
 p{
   color: gray; 
   text-align: left; 
-  margin-left: 20px;
+  margin-left: 50px;
 }
 article {
     width: 800px;
@@ -28,9 +28,25 @@ article {
     margin-bottom: 50px;
   
 }
-aside {
-   width: 40px;
-   height: 100px;
+* {
+  box-sizing: border-box;
+}  
+.row::after {
+content: "";
+display:table;
+clear: both;
+height: fit-content;
+table-layout: fixed;
+}  
+.column1 {
+  width:65%;
+ height:auto;
+ float:left;
+}
+.column2 {
+  width:35%;
+ height:auto;
+ float:right;
 }
 .vertical-menu {
     width: 50px; 
@@ -57,3 +73,4 @@ aside {
         height: 70px;
         overflow-y: auto;
       }  
+     
