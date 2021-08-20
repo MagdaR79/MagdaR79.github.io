@@ -1,6 +1,6 @@
 h1 { 
     font-size:medium;
-    color:rgb(232, 234, 240);
+    color:rgb(192, 191, 187);
     margin-bottom: 20px;
 }
 h2 { 
@@ -15,7 +15,8 @@ a{
     color: darkslategray;
 }
 p{
-  color: gray; 
+  font-size: medium;
+  color:gray; 
   text-align: left; 
   margin-left: 50px;
 }
@@ -73,4 +74,7 @@ table-layout: fixed;
         height: 70px;
         overflow-y: auto;
       }  
+ul{
+  color: gray;
+}
      
