@@ -10,7 +10,7 @@ h2 {
 }
 a{
     font-size:x-small;
-    color: darkslategray;
+    color:black;
 }
 p{
   font-size: large;
@@ -54,18 +54,19 @@ table-layout: fixed;
   
   .vertical-menu a {
     background-color: rgb(15, 15, 15); 
-    color: rgb(26, 124, 51); 
+   font: 1em sans-serif; 
+   color:white; 
     display: block; /* Make the links appear below each other */
     padding: 12px; 
     text-decoration: none; /* Remove underline from links */
   }
   
   .vertical-menu a:hover {
-    background-color: #ccc; /* Dark grey background on mouse-over */
+    background-color: #ccc; /* Color of the background on mouse-over */
   }
   
   .vertical-menu a.active {
-    background-color: #04AA6D; /* Add a green color to the "active/current" link */
+    background-color: cornflowerblue; /* Add a blue color to the "active/current" link */
     color: white; }
 
     .vertical-menu {
