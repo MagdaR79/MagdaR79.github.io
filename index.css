@@ -1,14 +1,12 @@
 h1 { 
     font-size:medium;
-    color:rgb(192, 191, 187);
+    color:black;
     margin-bottom: 20px;
 }
 h2 { 
     font-size:small;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color:rgb(232, 234, 240);
-    margin-left: 50px;
-    margin-bottom: 50px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:black
 }
 a{
     font-size:x-small;
@@ -16,14 +14,15 @@ a{
 }
 p{
   font-size: large;
-  color:gray; 
+  color:black; 
   text-align: left; 
   margin-left: 50px;
+  margin-right: 25px;
 }
 article {
     width: 800px;
     font: 1em sans-serif;
-    color: rgb(232, 234, 240);
+    color: black;
     line-height: 150%;
     margin-left: 50px;
     margin-bottom: 50px;
@@ -75,6 +74,12 @@ table-layout: fixed;
         overflow-y: auto;
       }  
 ul{
-  color: gray;
+  color:black;
 }
-     
+.vl {
+  border-left: 2px solid black;
+  margin-block-start: 10px;
+  position: absolute;
+  top: 120px;
+  height: 40%;
+}  
