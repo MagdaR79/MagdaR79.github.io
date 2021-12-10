@@ -87,3 +87,24 @@ ul{
   top: 120px;
   height: 40%;
 }  
+
+@media screen and (max-width: 1000px) {
+  .kolaz {
+    width: 250px;
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .kolaz {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .kolaz {
+    width: 150px;
+    height: 150px;
+  }
+}
